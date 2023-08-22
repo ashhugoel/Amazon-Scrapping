@@ -1,14 +1,27 @@
-###Prerequisites<br />
-For installing Requests module
+## Prerequisites <br />
+**For installing Requests module**
 ```sh
  python -m pip install requests
   ```
-For installing BeautifulSoup module
-```sh
 
- pip install bs4
+**For installing BeautifulSoup module**
+```sh
+pip install bs4
+```
+
+**For running the python file**
+```sh
+python .\AmazonScrappingq2.py 
   ```
-##About:<br />
-Send an HTTP request to the URL of the webpage you want to access. The server responds to the request by returning the HTML content of the webpage. For this task, we will use a third-party HTTP library for python-requests.
-Once we have accessed the HTML content, we are left with the task of parsing the data. Since most of the HTML data is nested, we cannot extract data simply through string processing. One needs a parser which can create a nested/tree structure of the HTML data. There are many HTML parser libraries available but the most advanced one is html5lib.
-Now, all we need to do is navigating and searching the parse tree that we created, i.e. tree traversal. For this task, we will be using another third-party python library, Beautiful Soup. It is a Python library for pulling data out of HTML and XML files.
+### About This Project:<br />
+We sent an HTTP request to the URL we want in our case to _amazon site_. dt we created, i.e. tree traversal. For this task, we will be using another third-party python library, **Beautiful Soup**. It is a Python library for pulling data out of HTML and XML files.
+ <br /><br />
+ We also used the liberary time to get a delay between our next request otherwise amazon coould have blocked our server,also we have used user agent in attibute because we just can't import the html file from the amazon (ps they dont want automated bot to access there files). <br /><br />
+ All data are extracted in the form of _csv fie_ encodes as _UTF-8_ which could easily viewed in the form of _excel sheet_ and can be used for further data analysis.
+ <br /><br />
+ Also i have attached _AmazonWebscarppeddata.csv , AmazonWebscarppeddata.xlsx , AmazonWebscarppeddata.pdf_ if you wanna view how the output look like.
+ <br /><br />This project provide  _NAME OF THE PRODUCT , PRICE , RATING , NUMBER OR REVIEWS , LINK_ of the product viewd on that particular site , also it give result for all the pages.
+ <br />.<br />.<br />.<br />.<br />.<br />.<br />.<br />.<br />.<br />
+
+ **NOTE**<br />
+ The app is still under development i just got some hours to finish the project.
