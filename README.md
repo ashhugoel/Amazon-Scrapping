@@ -11,7 +11,7 @@ pip install bs4
 
 **For running the python file**
 ```sh
-python .\AmazonScrappingq2.py 
+python .\mainscrapping.py 
   ```
 ### About This Project:<br />
 We sent an HTTP request to the URL we want in our case to _amazon site_. dt we created, i.e. tree traversal. For this task, we will be using another third-party python library, **Beautiful Soup**. It is a Python library for pulling data out of HTML and XML files.
