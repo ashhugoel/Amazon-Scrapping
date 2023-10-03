@@ -21,4 +21,3 @@ We sent an HTTP request to the URL we want in our case to _amazon site_. dt we c
  <br /><br />
  Also i have attached _AmazonScrappedData.csv, AmazonWebscarppeddata.xlsx_ if you wanna view how the output look like.
  <br /><br />This project provide  _NAME OF THE PRODUCT , PRICE , RATING , NUMBER OR REVIEWS , LINK_ of the product viewd on that particular site , also it provides result for all the pages.
- <br />.<br />.<br />.<br />.<br />.<br />.<br />.<br />.<br />.<br />
