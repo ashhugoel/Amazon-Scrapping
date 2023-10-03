@@ -1,4 +1,4 @@
-## Prerequisites <br />
+## Prerequisites 
 **For installing Requests module**
 ```sh
  python -m pip install requests
@@ -13,7 +13,7 @@ pip install bs4
 ```sh
 python .\script.py 
   ```
-### About This Project:<br />
+### About This Project:
 We send an HTTP request to the URL we want (in our case to _amazon site_) dt we created, i.e. tree traversal. For this task, we will be using another third-party python library, **Beautiful Soup**. It is a Python library for pulling data out of HTML and XML files.
  <br /><br />
 We also used the library _time_ to get a delay between our next request otherwise amazon coould have blocked our server,also a user agent in attibute because we just can't import the html file from the amazon (ps they dont want automated bot to access there files). <br /><br />
